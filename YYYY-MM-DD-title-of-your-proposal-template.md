@@ -1,6 +1,6 @@
-# 🛠️ Workshop Proposal: [Workshop Title]
+# 🛠️ Proposal: [Proposal Title]
 
-## 📝 Summary
+## 📝 Abstract
 Brief description of the workshop: what it is, why it matters, and who it’s for.
 
 ---
@@ -66,17 +66,18 @@ Do you need cloud credits, GPUs, shared compute environments, or pre-deployed pl
 ---
 
 ## 🧾 Participant Requirements
-Do users need to create accounts (e.g., GitHub, Hugging Face, cloud providers)?  
+Do users need to create accounts (e.g., GitHub, Hugging Face, cloud providers) prior to your event?  
 Will they need to install tools or request access to shared platforms?
 
 ---
 
-## 🪑 Capacity / Seats Available
+## 🪑 Capacity / Seats Available 
 How many attendees can the workshop reasonably support with current resources?
+If you are not sure yet, answer "TBD".
 
 ---
 
-## 💵 Estimated Budget
+## 💵 Estimated Budget *(Optional)*
 Break down any expected costs (can be approximate):
 - Cloud credits: $___
 - Platform licensing: $___
@@ -86,7 +87,7 @@ Break down any expected costs (can be approximate):
 
 ---
 
-## 🧑‍🤝‍🧑 Volunteers & Roles Needed
+## 🧑‍🤝‍🧑 Volunteers & Roles Needed *(Optional)*
 List roles you're looking for help with:
 - Co-facilitator
 - Technical support
@@ -109,6 +110,7 @@ Are you partnering with another organization? Would a sponsor be helpful?
 ## 📬 Contact Info
 Name:  
 Email:  
+LinkedIn:
 GitHub or Slack handle:
 
 ---
