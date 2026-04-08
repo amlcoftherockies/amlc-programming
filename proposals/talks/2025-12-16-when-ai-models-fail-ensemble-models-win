@@ -1,0 +1,116 @@
+🛠️ Proposal: When AI Models Fail, Ensemble Models Win
+📝 Abstract
+
+What do you do when your domain-specific NLP pipeline achieves only 85% accuracy, and a cutting-edge LLM (Claude 3.5 Sonnet) fails even harder at 46.7%?
+
+This session presents a production case study from Applied Industrials, demonstrating how we combined two failing models into an Ensemble "Judge" System to achieve 100% accuracy on critical industrial data. We will explore how this pattern scales across 295,000+ records in four interconnected systems (Support, BOMs, Specs, Work Instructions) and why "ensemble thinking" is essential for production ML when singular models hit a ceiling.
+🎯 Objectives
+
+Participants will walk away understanding:
+
+    The "Judge" Pattern: How to architect a system where models grade each other's predictions.
+
+    Validation Rigor: How to move beyond "lucky examples" to statistical confidence using a 50-example validation suite.
+
+    ROI Analysis: A breakdown of how to calculate the trade-off between cost ($0.03/prediction) and value ($16k annual savings/3,566% ROI).
+
+    Implementation Strategy: A 4-step framework for designing ensembles that scale across different data domains.
+
+👥 Target Audience
+
+    Primary: ML Practitioners and Data Scientists struggling with "good but not production-ready" models.
+
+    Secondary: Engineering Managers and Product Owners needing to understand the cost/accuracy trade-offs of Generative AI.
+
+    Domain: Industrial/Manufacturing focus, but applicable to Fintech, Healthcare, and Systems Engineering.
+
+🧠 Topics Covered
+
+    Ensemble Methods & "Judge" Architectures
+
+    Production ML & MLOps
+
+    Industrial AI & Data Quality
+
+    ROI Analysis for GenAI
+
+    Systems Integration (Cross-system semantic linking)
+
+🧭 Format & Duration
+
+In-person Presentation Length: 30–45 Minutes (Flexible) (Format includes Case Study + Technical Deep-Dive + Q&A)
+🗓️ Proposed Date(s)
+
+December 16, 2025
+📊 Level of Expertise
+
+Intermediate Accessible to all ML practitioners. Ideal for those familiar with basic NLP pipelines but looking for strategies to handle edge cases and high-stakes data accuracy.
+🔑 Prerequisites
+
+    Basic understanding of Machine Learning concepts (Classification, Precision/Recall).
+
+    Familiarity with Python.
+
+    General awareness of LLM capabilities and limitations.
+
+📚 Upskilling Resources (Optional)
+
+Attendees will receive access to the ensemble-judge-classifier GitHub repository, which includes:
+
+    Complete ensemble classifier code (Python).
+
+    A Jupyter Notebook step-by-step implementation tutorial.
+
+    An ROI calculator (Excel + Python).
+
+    A statistical validation toolset.
+
+💻 Self-Hosting / Deployment Effort
+
+While this is a talk, the provided code allows attendees to replicate the system:
+
+    Setup Time: ~15 minutes to run the provided notebook.
+
+    Infrastructure: Requires Python environment and an API key (e.g., OpenRouter/Anthropic).
+
+    Data: Anonymized sample data (real support tickets) is included in the repo.
+
+☁️ Infrastructure Support
+
+None required for the presentation. (If converted to a hands-on workshop later, participants would need internet access and API keys).
+🧾 Participant Requirements
+
+No accounts needed for the talk. To use the take-home materials: A GitHub account and an LLM provider API key (e.g., Anthropic or OpenRouter) are recommended.
+🪑 Capacity / Seats Available
+
+TBD (Standard Meetup Capacity)
+💵 Estimated Budget (Optional)
+
+    Cloud credits: $0 (Speaker uses own API credits for demos).
+
+    Platform licensing: N/A.
+
+    Speaker honorarium: N/A (Voluntary Board Member presentation).
+
+🧑‍🤝‍🧑 Volunteers & Roles Needed (Optional)
+
+    Marketing/Promotion: Standard meetup announcement support.
+
+    Moderator: To handle Q&A facilitation.
+
+🤝 Partners or Sponsors (Optional)
+
+Applied Industrials (Speaker's Organization) is providing the case study data, open-source code, and ROI frameworks.
+📦 Deliverables (Optional)
+
+    Slide Deck: PDF + Editable format.
+
+    GitHub Repo: Public access to ensemble-judge-classifier code.
+
+    Validation Data: 50 anonymized test examples with results.
+
+    ROI Calculator: Spreadsheet for ensemble cost analysis.
+
+📬 Contact Info
+
+Name: Rachael Roland Email: rachael@appliedindustrials.ai LinkedIn: [Link to Profile] Organization: Applied Industrials (AMLC of the Rockies Board Member)
